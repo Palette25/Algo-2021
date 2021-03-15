@@ -4,11 +4,11 @@
 #### 学号：2001212817
 
 ### LeetCode 1. Two Sum
-##### 测试截图：
+#### 测试截图：
 ![img](https://github.com/Palette25/Algo-2021/blob/main/Homework1/figures/0.jpg)
 ![img](https://github.com/Palette25/Algo-2021/blob/main/Homework1/figures/1.jpg)
 
-##### 代码：
+#### 代码：
 
 ```python
 class Solution(object):
@@ -27,17 +27,17 @@ class Solution(object):
                 return [dict[target-nums[i]], i]
 ```
 
-##### 算法思路描述：
+#### 算法思路描述：
 
 
 
 
 ### LeetCode 69. Sqrt(x)
-##### 测试截图：
+#### 测试截图：
 ![img](https://github.com/Palette25/Algo-2021/blob/main/Homework1/figures/2.jpg)
 ![img](https://github.com/Palette25/Algo-2021/blob/main/Homework1/figures/3.jpg)
 
-##### 代码：
+#### 代码：
 
 ```python
 class Solution(object):
@@ -60,18 +60,18 @@ class Solution(object):
         return left - 1
 ```
 
-##### 算法思路描述：
+#### 算法思路描述：
 
 
 
 
 ### LeetCode 70. Climbing Stairs
-##### 测试截图：
+#### 测试截图：
 
 ![img](https://github.com/Palette25/Algo-2021/blob/main/Homework1/figures/4.jpg)
 ![img](https://github.com/Palette25/Algo-2021/blob/main/Homework1/figures/5.jpg)
 
-##### 代码：
+#### 代码：
 
 ```python
 class Solution(object):
@@ -86,5 +86,5 @@ class Solution(object):
         return current
 ```
 
-##### 算法思路描述：
+#### 算法思路描述：
 
