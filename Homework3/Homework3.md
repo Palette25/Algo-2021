@@ -78,7 +78,7 @@ class Solution:
 > 给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
 >
 
-![img](https://github.com/Palette25/Algo-2021/blob/main/Homework3/figures/0.jpg)
+![img](https://github.com/Palette25/Algo-2021/blob/main/Homework3/figures/0.png)
 
 #### 测试截图：
 
