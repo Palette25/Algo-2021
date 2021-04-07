@@ -181,7 +181,7 @@ class Solution:
         citations.sort()
         # After sorting, 
         # Find max h number
-        while i < N and citations[N - 1 - i] > i:
+        while i < N and citations[N - 1 - i] >= i+1:
             i += 1
 
         return i
@@ -189,7 +189,7 @@ class Solution:
 
 #### 算法思路描述：（时间复杂度O(nlogn)，空间复杂度O(1)）
 
-1. 首先对引用数组*citations*进行降序排序，根据h指数的定义可知，我们顺序遍历排序之后的数组，当遍历到最大的下标*index*，且满足*citations[index] > index*条件时，当前数组的h指数即为*index+1*(因为下标是从0开始的)
+1. 首先对引用数组*citations*进行降序排序，根据h指数的定义可知，我们顺序遍历排序之后的数组，当遍历到最大的下标*index*，且满足*citations[index] >= index+1*条件时，当前数组的h指数即为*index+1*(因为下标是从0开始的)
 
 2. 也可以通过升序排序，倒序扫描的方法完成，设定*while*循环，当满足*i<N*，N为数组总长度，并且*citations[N-1-i]>i*时，令*i+=1*，累加之后的结果*i*即为需要返回的h指数
 
